@@ -9,7 +9,8 @@ export default function Projects() {
 
           <p className="text-gray-400">
             Cryptocurrency and fiat currency converter built with React, Vite,
-            PostgreSQL, Node.js, authentication, and a community forum.
+            PostgreSQL, Node.js, authentication, and a community forum.{" "}
+            <span className="animate-blink text-green-400">_</span>
           </p>
         </div>
 
@@ -18,7 +19,8 @@ export default function Projects() {
 
           <p className="text-gray-400">
             My personal portfolio showcasing my projects, Linux journey, and
-            software engineering skills.
+            software engineering skills.{" "}
+            <span className="animate-blink text-green-400">_</span>
           </p>
         </div>
       </div>

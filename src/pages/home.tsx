@@ -17,7 +17,8 @@ export default function Home() {
         <p className="text-gray-400 leading-relaxed mb-10">
           I build fast, modern web applications while expanding my knowledge of
           C++, Linux, and backend development. I'm passionate about creating
-          efficient software and continuously improving my skills.
+          efficient software and continuously improving my skills.{" "}
+          <span className="animate-blink text-green-400">_</span>
         </p>
 
         <div className="flex justify-center gap-4">

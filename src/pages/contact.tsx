@@ -5,7 +5,8 @@ export default function Contact() {
 
       <p className="text-gray-300 text-lg text-center max-w-xl">
         Interested in working together or just want to chat about software
-        engineering, Linux, or C++?
+        engineering, Linux, or C++?{" "}
+        <span className="animate-blink text-green-400">_</span>
       </p>
 
       <div className="mt-10 space-y-4 text-center">
