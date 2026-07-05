@@ -42,6 +42,37 @@ export default function App() {
           className="w-48 h-48 rounded-full object-cover border-2 border-green-400/30 shadow-xl shadow-green-500/20 hover:scale-125 transition"
         />
       </div>
+      <nav className="fixed bottom-6 left-0 right-0 flex justify-center z-50">
+        <div className="flex items-center gap-6 px-6 py-3 bg-black/70 backdrop-blur-md border border-green-400/20 rounded-full shadow-lg shadow-green-500/10">
+          <a
+            href="#"
+            className="text-green-400 hover:text-green-300 transition"
+          >
+            Home
+          </a>
+
+          <a
+            href="#"
+            className="text-green-400 hover:text-green-300 transition"
+          >
+            About
+          </a>
+
+          <a
+            href="#"
+            className="text-green-400 hover:text-green-300 transition"
+          >
+            Projects
+          </a>
+
+          <a
+            href="#"
+            className="text-green-400 hover:text-green-300 transition"
+          >
+            Contact
+          </a>
+        </div>
+      </nav>
     </div>
   );
 }
