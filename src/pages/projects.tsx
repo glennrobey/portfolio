@@ -1,31 +1,42 @@
+import crypt0 from "../assets/crypt0.png";
+
 export default function Projects() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center pt-24 px-8">
-      <h1 className="text-5xl font-bold text-green-400 mb-10">
-        glenn@portfolio:~$ ls projects
-      </h1>
+    <main className="min-h-screen bg-black text-white flex items-center justify-center px-6">
+      <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-xl rounded-xl p-8 max-w-3xl w-full">
+        {/* Terminal command */}
+        <p className="text-green-400 text-lg mb-6 font-mono animate-pulse [animation-duration:1.2s]">
+          glenn@portfolio:~$ ls projects
+        </p>
 
-      <div className="grid md:grid-cols-2 gap-8 max-w-6xl">
-        <div className="border border-green-500/20 rounded-xl p-6 bg-zinc-900">
-          <h2 className="text-2xl font-semibold mb-2 text-green-400">
+        {/* Project 1 */}
+        <div className="mb-8">
+          <h2 className="text-2xl font-semibold text-green-400">
             crypt0.current_
           </h2>
 
-          <p className="text-white-400">
+          {/* Image (fixed placement) */}
+          <div className="mt-4 border border-green-500/20 rounded-lg overflow-hidden">
+            <img src={crypt0} alt="crypt0 preview" className="w-full" />
+          </div>
+
+          <p className="text-gray-300 mt-4 leading-relaxed">
             Cryptocurrency and fiat currency converter built with React, Vite,
-            PostgreSQL, Node.js, authentication, and a community forum.{" "}
+            PostgreSQL, Node.js, authentication, and a community forum.
             <span className="animate-blink text-green-400">_</span>
           </p>
         </div>
 
-        <div className="border border-green-500/20 rounded-xl p-6 bg-zinc-900">
-          <h2 className="text-2xl font-semibold mb-2 text-green-400">
-            Portfolio
-          </h2>
+        <hr className="border-green-500/20 my-6" />
 
-          <p className="text-white-400">
-            My personal portfolio showcasing my projects, Linux journey, and
-            software engineering skills.{" "}
+        {/* Project 2 */}
+        <div>
+          <h2 className="text-2xl font-semibold text-green-400">Portfolio</h2>
+
+          <p className="text-gray-300 mt-4 leading-relaxed">
+            My personal portfolio showcasing my projects, Linux journey,
+            software engineering skills, and my transition into systems
+            programming with C++ and Linux.
             <span className="animate-blink text-green-400">_</span>
           </p>
         </div>
