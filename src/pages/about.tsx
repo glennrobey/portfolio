@@ -1,4 +1,5 @@
 import profile from "../assets/profile-pic.jpg";
+import tux from "../assets/tux.jpg";
 
 export default function About() {
   return (
