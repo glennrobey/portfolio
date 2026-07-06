@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex items-center justify-center px-6">
+    <main className="min-h-screen bg-black text-white flex items-center justify-center px-6 pb-24">
+      {" "}
       <div className="text-center max-w-3xl">
         {/* WHOAMI CARD */}
         <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-xl rounded-xl p-8 max-w-2xl w-full text-center mb-16">

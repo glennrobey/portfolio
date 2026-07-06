@@ -2,7 +2,7 @@ import profile from "../assets/profile-pic.jpg";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center px-6">
+    <div className="min-h-screen bg-black text-white flex items-center justify-center px-6 pb-24">
       <div className="flex flex-col md:flex-row items-center gap-10 max-w-4xl">
         {/* Terminal Card */}
         <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-xl rounded-xl p-8 max-w-md w-full">
