@@ -2,7 +2,9 @@ export default function Contact() {
   return (
     <main className="min-h-screen bg-black text-white flex items-center justify-center px-6">
       <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-xl rounded-xl p-8 max-w-md w-full text-center">
-        <h1 className="text-5xl font-bold text-green-400 mb-6">Contact</h1>
+        <h1 className="text-green-400 text-lg mb-4 animate-pulse [animation-duration:1.2s] font-mono">
+          glenn@portfolio:~$ ping glenn
+        </h1>
 
         <p className="text-gray-300 text-lg mb-8">
           Interested in working together or just want to chat about software

@@ -4,22 +4,23 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white flex items-center justify-center px-6">
       <div className="text-center max-w-3xl">
-        <p className="text-green-400 text-lg mb-2">Hello, I'm</p>
-
-        <h1 className="text-6xl md:text-7xl font-bold mb-4">
-          Glenn <span className="text-green-400">Robey</span>
-        </h1>
-
-        <h2 className="text-2xl text-gray-300 mb-6">
-          Full Stack Developer • C++ Student • Linux Enthusiast
-        </h2>
-
-        <p className="text-gray-400 leading-relaxed mb-10">
-          I build fast, modern web applications while expanding my knowledge of
-          C++, Linux, and backend development. I'm passionate about creating
-          efficient software and continuously improving my skills.{" "}
-          <span className="animate-blink text-green-400">_</span>
-        </p>
+        <div className="bg-white/10 backdrop-blur-md border border-white/20 shadow-xl rounded-xl p-8 max-w-2xl w-full text-center mb-16">
+          <p className="text-green-400 text-lg mb-2 animate-pulse [animation-duration:1.2s]">
+            glenn@portfolio:~$ whoami
+          </p>{" "}
+          <h1 className="text-6xl md:text-7xl font-bold mb-4">
+            Glenn <span className="text-green-400">Robey</span>
+          </h1>
+          <h2 className="text-2xl text-green-400 mb-6">
+            Full Stack Developer • C++ Student • Linux Enthusiast
+          </h2>
+          <p className="text-white-400 leading-relaxed mb-10">
+            I build fast, modern web applications while expanding my knowledge
+            of C++, Linux, and backend development. I'm passionate about
+            creating efficient software and continuously improving my skills.
+            <span className="animate-blink text-green-400">_</span>
+          </p>
+        </div>
 
         <div className="flex justify-center gap-4">
           <Link
@@ -36,10 +37,6 @@ export default function Home() {
             Contact Me
           </Link>
         </div>
-
-        <p className="mt-16 text-green-400 animate-pulse text-xl">
-          ↓ Scroll or use the navigation ↓
-        </p>
       </div>
     </main>
   );
