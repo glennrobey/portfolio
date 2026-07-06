@@ -10,18 +10,19 @@ export default function Home() {
             glenn@portfolio:~$ whoami
           </p>
 
-          <h1 className="text-6xl md:text-7xl font-bold mb-4">
+          <h1 className="text-6xl md:text-7xl font-bold mb-4 text-green-400">
             Glenn <span className="text-green-400">Robey</span>
           </h1>
 
           <h2 className="text-2xl text-green-400 mb-6">
-            Full Stack Developer • C++ Student • Linux Enthusiast
+            Fullstack Programmer - Linux
           </h2>
 
           <p className="text-gray-300 leading-relaxed mb-10">
-            I build fast, modern web applications while expanding my knowledge
-            of C++, Linux, and backend development. I'm passionate about
-            creating efficient software and continuously improving my skills.
+            | Fullstack Programmer | Linux Power User | TypeScript + C++ |
+            <br></br>
+            <br></br>Expanding knowledge in computer architecture, systems
+            programming, and backend engineering.
             <span className="animate-blink text-green-400">_</span>
           </p>
         </div>

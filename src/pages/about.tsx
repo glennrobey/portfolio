@@ -40,7 +40,7 @@ export default function About() {
             </span>
 
             <span className="text-xs px-3 py-1 border border-green-500/30 rounded-full text-green-400 whitespace-nowrap">
-              Tailwind
+              TailwindCSS
             </span>
           </div>
         </div>
