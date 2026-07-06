@@ -9,18 +9,34 @@ export default function Contact() {
           engineering, Linux, or C++?{" "}
           <span className="animate-blink text-green-400">_</span>
         </p>
+
         <p className="text-green-400">Email:</p>
-        <span className="text-xs px-3 py-1 border border-green-500/30 rounded-full text-green-400">
+        <a
+          href="mailto:glennrobey95@gmail.com"
+          className="inline-block text-xs px-3 py-1 border border-green-500/30 rounded-full text-green-400 hover:bg-green-500/10 transition"
+        >
           glennrobey95@gmail.com
-        </span>
-        <p className="text-green-400">Github:</p>
-        <span className="text-xs px-3 py-1 border border-green-500/30 rounded-full text-green-400">
-          https://github.com/glennrobey
-        </span>
-        <p className="text-green-400">LinkedIn:</p>
-        <span className="text-xs px-3 py-1 border border-green-500/30 rounded-full text-green-400">
-          https://www.linkedin.com/in/glenn-robey/
-        </span>
+        </a>
+
+        <p className="text-green-400 mt-4">GitHub:</p>
+        <a
+          href="https://github.com/glennrobey"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-xs px-3 py-1 border border-green-500/30 rounded-full text-green-400 hover:bg-green-500/10 transition"
+        >
+          github.com/glennrobey
+        </a>
+
+        <p className="text-green-400 mt-4">LinkedIn:</p>
+        <a
+          href="https://www.linkedin.com/in/glenn-robey/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block text-xs px-3 py-1 border border-green-500/30 rounded-full text-green-400 hover:bg-green-500/10 transition"
+        >
+          linkedin.com/in/glenn-robey
+        </a>
       </div>
     </main>
   );
