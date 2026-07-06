@@ -13,9 +13,9 @@ export default function About() {
 
           {/* About text */}
           <p className="text-gray-300 leading-relaxed">
-            I’m a fullstack developer focused on building fast, clean web
-            applications. I work with React, TypeScript, and backend systems,
-            and I enjoy Linux and low-level programming.
+            Fullstack programmer exploring C++ and Linux systems. Focused on
+            problem-solving and continuous learning. Looking to grow my skills
+            in a collaborative engineering environment.
             <span className="animate-blink text-green-400">_</span>
           </p>
 
