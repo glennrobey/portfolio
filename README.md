@@ -1,6 +1,6 @@
 # Portfolio
 
-A personal developer portfolio showcasing projects, technical skills, and software development experience.
+Personal developer portfolio showcasing projects, technical skills, and software development experience.
 
 ## Features
 - Project showcase
