@@ -1,9 +1,3 @@
-
----
-
-### Portfolio
-
-```md
 # Portfolio
 
 A personal developer portfolio showcasing projects, technical skills, and software development experience.
