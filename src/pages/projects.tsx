@@ -28,11 +28,7 @@ export default function Projects() {
         {/* Project 1 */}
         <div className="mb-8">
           <h2 className="text-2xl font-semibold text-green-400 hover:text-green-300 transition">
-            <a
-              href="https://github.com/YOUR_USERNAME/crypt0"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a target="_blank" rel="noopener noreferrer">
               crypt0.current_
             </a>
           </h2>
@@ -94,7 +90,7 @@ export default function Projects() {
 
           <div className="mt-4 border border-green-500/20 rounded-lg overflow-hidden">
             <a
-              href="https://github.com/YOUR_USERNAME/cppcalc"
+              href="https://cpp-calc.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
